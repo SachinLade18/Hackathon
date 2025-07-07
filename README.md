@@ -25,4 +25,19 @@ Replace `your_gitlab_token_here` with your actual GitLab personal access token.
 3. Start the Flask app:
    ```bash
    python app.py
-   ``` 
+   ```
+
+
+
+source venv/bin/activate
+
+# Run the Flask backend (it will start on port 8000)
+python app.py
+
+frontend :
+streamlit run streamlit_app.py --server.port 8501
+
+
+
+
+
